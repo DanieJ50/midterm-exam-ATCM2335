@@ -7,106 +7,204 @@
 
   <title>Danielle Julian Resume</title>
 
-  <!-- Google Fonts -->
+  <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" 
+    rel="stylesheet"
+  >
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  >
 
-  <!-- My CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #fff4f7;
+      color: #2b1b22;
+      font-family: "Lato", sans-serif;
+    }
+
+    h1, h2, h3 {
+      font-family: "Playfair Display", serif;
+      color: #9f1239;
+    }
+
+    h1 {
+      font-size: 3.2rem;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #f9a8d4;
+      padding-bottom: 6px;
+      margin-bottom: 16px;
+    }
+
+    p, li {
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    .resume-card {
+      background-color: white;
+      border: 2px solid #f9a8d4;
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 12px 30px rgba(159, 18, 57, 0.12);
+    }
+
+    .hero {
+      background-color: #ffe4ec;
+      border: 2px solid #f9a8d4;
+      border-radius: 28px;
+      padding: 36px;
+      margin-bottom: 28px;
+      text-align: center;
+    }
+
+    .artwork {
+      width: 100%;
+      border-radius: 22px;
+      border: 2px solid #f9a8d4;
+      margin-top: 15px;
+    }
+
+    a {
+      color: #be185d;
+      font-weight: 700;
+    }
+
+    a:hover {
+      color: #831843;
+    }
+
+    .badge-soft {
+      display: inline-block;
+      background-color: #ffe4ec;
+      color: #9f1239;
+      border: 1px solid #f9a8d4;
+      border-radius: 999px;
+      padding: 8px 12px;
+      margin: 4px;
+      font-weight: 700;
+    }
+  </style>
 </head>
 
 <body>
 
-  <div class="container">
+  <div class="container my-5">
 
-    <header class="resume-header text-center my-5 p-5 rounded-4">
-      <p class="small-title">Danielle Julian's Resume</p>
-
+    <section class="hero">
       <h1>Danielle Julian</h1>
 
-      <p class="intro">
-        I am a senior at The University of Texas at Dallas majoring in Graphic Design.
-        I enjoy creating colorful, organized, and expressive designs, including logos, posters, user interface designs, and digital projects.
+      <p>
+        I am a senior at the University of Texas at Dallas majoring in Graphic Design. 
+        I enjoy creating visual designs, digital artwork, posters, UI layouts, and creative projects that feel expressive and personal.
       </p>
 
-      <div class="contact-links">
-        <a href="mailto:deo220000@utdallas.edu" class="btn btn-light">Email Me</a>
+      <p>
+        <a href="mailto:deo220000@utdallas.edu">Email Me</a>
+      </p>
+    </section>
 
-        <a href="https://www.linkedin.com/in/danielle-julian-55664a25b" class="btn btn-outline-light" target="_blank">
-          LinkedIn
-        </a>
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <section class="resume-card">
+          <h2>Education</h2>
+
+          <ul>
+            <li>University of Texas at Dallas — Graphic Design</li>
+            <li>CUNY College of Staten Island — Communication</li>
+          </ul>
+        </section>
       </div>
-    </header>
 
-    <main>
+      <div class="col-md-6">
+        <section class="resume-card">
+          <h2>Employment</h2>
 
-      <section class="card mb-4 p-4">
-        <h2>Education</h2>
+          <ul>
+            <li>Kroger — Cashier and Self-Checkout Attendant</li>
+            <li>Kroger — Front End Supervisor Training</li>
+            <li>Freelance / Personal Design Projects</li>
+          </ul>
+        </section>
+      </div>
 
-        <ul>
-          <li>The University of Texas at Dallas — Graphic Design Major</li>
-          <li>CUNY College of Staten Island — Associate Degree in Communication</li>
-          <li>Google UX Design Certificate Program</li>
-        </ul>
-      </section>
+      <div class="col-md-6">
+        <section class="resume-card">
+          <h2>Software Skills</h2>
 
-      <section class="card mb-4 p-4">
-        <h2>Employment History</h2>
+          <ul>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe Lightroom</li>
+            <li>Figma</li>
+            <li>Canva</li>
+            <li>HTML and CSS</li>
+          </ul>
+        </section>
+      </div>
 
-        <ul>
-          <li>Kroger — Cashier and Self-Checkout Attendant</li>
-          <li>Kroger — Morning Cashier and Front-End Support</li>
-          <li>Customer Service — Assisting customers, solving problems, and supporting checkout areas</li>
-        </ul>
-      </section>
+      <div class="col-md-6">
+        <section class="resume-card">
+          <h2>Design Interests</h2>
 
-      <section class="card mb-4 p-4">
-        <h2>Software Skills</h2>
+          <ol>
+            <li>Poster design</li>
+            <li>Logo design</li>
+            <li>UI/UX design</li>
+            <li>Typography</li>
+            <li>Brand identity</li>
+          </ol>
+        </section>
+      </div>
 
-        <ul>
-          <li>Adobe Photoshop</li>
-          <li>Adobe Illustrator</li>
-          <li>Adobe Lightroom</li>
-          <li>Figma</li>
-          <li>Canva</li>
-          <li>HTML and CSS</li>
-          <li>Bootstrap</li>
-          <li>GitHub</li>
-        </ul>
-      </section>
+      <div class="col-md-6">
+        <section class="resume-card">
+          <h2>Projects</h2>
 
-      <section class="card mb-4 p-4">
-        <h2>Design Experience</h2>
+          <p>
+            My recent projects include branding work, web pages, UI designs, and creative advertising concepts.
+          </p>
 
-        <ol>
-          <li>Logo design</li>
-          <li>Poster design</li>
-          <li>Flyer and advertisement design</li>
-          <li>User interface design</li>
-          <li>Web design projects</li>
-        </ol>
-      </section>
+          <span class="badge-soft">Graphic Design</span>
+          <span class="badge-soft">Web Design</span>
+          <span class="badge-soft">Branding</span>
+          <span class="badge-soft">UI Design</span>
+        </section>
+      </div>
 
-      <section class="card mb-5 p-4">
-        <h2>Creative Interests</h2>
+      <div class="col-md-6">
+        <section class="resume-card">
+          <h2>Artwork</h2>
 
-        <p>
-          My creative interests include branding, typography, web design, user interface design, and visual storytelling.
-          I like making designs that feel personal, memorable, and easy to understand.
-        </p>
-      </section>
+          <p>
+            This image shows one of my creative advertising design projects.
+          </p>
 
-    </main>
+          <img 
+            src="images/mchappiness.jpg" 
+            alt="McHappiness advertising design project by Danielle Julian"
+            class="artwork"
+          >
+        </section>
+      </div>
+
+    </div>
 
   </div>
 
   <!-- Bootstrap JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+  </script>
 
 </body>
 </html>
