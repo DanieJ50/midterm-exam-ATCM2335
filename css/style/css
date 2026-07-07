@@ -1,0 +1,24 @@
+body {
+  background-color: pink;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  color: dark rose;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  color: lavender;
+}
+
+h3 {
+  color: rose pink;
+}
+
+p {
+  font-size: 20px;
+  line-weight: 1.6;
+}
